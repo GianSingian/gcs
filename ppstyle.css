@@ -1,0 +1,101 @@
+/* style */
+@media (max-width: 600px) {
+	.logo {
+		display: none;
+		}
+	}
+	.logo {
+	  position: absolute;
+	  top: 10px;
+	  right: 20px;
+	  max-width: 100px;
+	  height: auto;
+	}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: cursive;
+	  font-size: 20px;
+      line-height: 1.6;
+      background-color: black;
+      color: white;
+    }
+    header {
+	  position: relative;
+      background-color: #cba48c;
+      color: white;
+      padding: 35px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 0;
+	  margin: 0 50px;
+      display: block;
+    }
+    nav ul li a:hover {
+	background-color: #ffdab9;
+	color: white;
+	padding: 15px 30px;
+	font-size: 18px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+	h1 {
+		color: black;
+	}
+    h2 {
+      margin-bottom: 20px;
+      color: #cba48c;
+	  text-align: center;
+    }
+    .project, .portfolio-item {
+      background-color: #333;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin-top: 40px;
+    }
+	.center-image {
+	  display: block;
+	  margin: 0 auto;
+	}
+	.project-content {
+ 	  display: flex;
+	  align-items: center;
+	  gap: 20px;
+	  flex-wrap: wrap;
+	}
+	.project-image {
+	  max-width: 400px;
+	  height: auto;
+	}	
+	.text {
+	  flex: 1;
+	}
